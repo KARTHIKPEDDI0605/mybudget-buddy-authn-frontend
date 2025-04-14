@@ -5,7 +5,7 @@ A web app for client and customer registration with react-frontend
 ## Available Scripts
 
 In the project directory, you can run:
-
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.\
