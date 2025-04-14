@@ -96,3 +96,20 @@ npm test
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+
+
+
+<img width="1512" alt="Screenshot 2025-04-14 at 11 48 26 PM" src="https://github.com/user-attachments/assets/274ab453-9330-488d-b1e0-771d74afd275" />
+
+<img width="1508" alt="Screenshot 2025-04-14 at 11 48 51 PM" src="https://github.com/user-attachments/assets/1386c932-c55e-4f7f-8e55-074dcf88c07d" />
+
+<img width="1496" alt="Screenshot 2025-04-14 at 11 49 11 PM" src="https://github.com/user-attachments/assets/460e1a17-5e3e-4579-877d-43a71ea6c45f" />
+
+<img width="1496" alt="Screenshot 2025-04-14 at 11 49 41 PM" src="https://github.com/user-attachments/assets/f27683bf-a9ff-40aa-9e9b-6532c5bd90bb" />
+
+
+<img width="1496" alt="Screenshot 2025-04-14 at 11 52 53 PM" src="https://github.com/user-attachments/assets/7f53acfc-0884-4b3c-916b-201b048c74f0" />
+
+
+
+
