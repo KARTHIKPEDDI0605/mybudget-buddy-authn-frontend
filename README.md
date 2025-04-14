@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# MyBudget Buddy - AuthN Frontend
+A web app for client and customer registration with react-frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
