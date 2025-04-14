@@ -1,0 +1,245 @@
+/* Glassmorphism card */
+.glass-card-login {
+  background-color: #E4EFE7;
+  border-radius: 16px;
+  box-shadow: 0 3px 5px 3px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  width: 400px;
+  max-width: 100%;
+  z-index: 10;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* Sign in title */
+.sign-in-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  position: sticky;
+}
+
+/* Form styling */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 800;
+  color: #333;
+}
+
+.form-group input {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.form-group input:focus {
+  border-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 0 2px rgba(110, 142, 251, 0.3);
+}
+
+/* Error input styling */
+.error-input {
+  border-color: #e74c3c !important; /* Red border for invalid fields */
+  background: rgba(255, 182, 182, 0.4); /* Light red background */
+}
+
+.error-input:focus {
+  border-color: #e74c3c !important;
+  box-shadow: 0 0 0 2px rgba(231, 76, 60, 0.3); /* Red shadow */
+}
+
+/* Password input container */
+.password-input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-input-container input {
+  width: 100%;
+  padding-right: 45px;
+}
+
+.password-toggle-btn {
+  position: absolute;
+  right: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  padding: 5px;
+  transition: color 0.2s ease;
+}
+
+.password-toggle-btn:hover {
+  color: #333;
+}
+
+/* Error message */
+.field-error-message {
+  color: #e74c3c; /* Red error message */
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+/* Server error message */
+.server-error-message {
+  color: #e74c3c; /* Red server error message */
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Forgot password */
+.forgot-password {
+  text-align: right;
+}
+
+.forgot-password-btn {
+  background: transparent;
+  border: none;
+  color: #015551;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  font-weight: 700;
+}
+
+.forgot-password-btn:hover {
+  color: #143D60;
+  text-decoration: underline;
+}
+
+/* Submit button */
+.submit-button {
+  background-color: #EB5B00;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background-color: #5b7dfa;
+}
+
+.submit-button:disabled {
+  background-color: #a4b6ff;
+  cursor: not-allowed;
+}
+
+/* Separator */
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.separator span {
+  padding: 0 15px;
+  color: #555;
+  font-size: 14px;
+}
+
+/* Social auth buttons */
+.social-auth-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.social-button:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.social-button.apple svg {
+  fill: #000;
+}
+
+.social-button.facebook {
+  color: #1877F2;
+}
+
+/* Create account */
+.create-account {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.create-account-btn {
+  background: transparent;
+  border: none;
+  color: #123458;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  transition: color 0.2s ease;
+}
+
+.create-account-btn:hover {
+  color: #4e6fd7;
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .glass-card-login {
+    padding: 30px 20px;
+  }
+  
+  .social-button span {
+    font-size: 13px;
+  }
+}

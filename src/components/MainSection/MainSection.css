@@ -1,0 +1,127 @@
+body {
+  background: linear-gradient(135deg, #F1EFEC, #D4C9BE, #E9DFC3);
+  font-family: "Segoe UI", sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/src/assets/bg-img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-container {
+  background: #FDFAF6;
+  border-radius: 20px;
+  padding: 2rem 3rem;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  width: 100%;
+  max-width: 800px;
+  color: #333;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.main-header {
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #3f51b5;
+  margin-bottom: 0.5rem;
+}
+
+.title .highlight1 {
+  font-weight: bold;
+  color: #EB5B00;
+}
+.highlight2 {
+  font-weight: bold;
+  color: #143D60;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 15px solid red;
+}
+.glass-card {
+  background-color: #E4EFE7;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-icon {
+  font-size: 3rem;
+  color: #3f51b5;
+  margin-bottom: 1rem;
+}
+
+.glass-card h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.glass-card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.continue-btn {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  font-weight: 500;
+}
+
+.customer-btn {
+  background-color: #3f51b5;
+  color: white;
+}
+
+.customer-btn:hover {
+  background-color: #303f9f;
+  transform: translateY(-2px);
+}
+
+.provider-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.provider-btn:hover {
+  background-color: #388e3c;
+  transform: translateY(-2px);
+}
+
+.main-footer {
+  font-size: 0.8rem;
+  color: #555;
+  text-align: center;
+}

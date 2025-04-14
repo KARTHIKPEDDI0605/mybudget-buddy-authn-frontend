@@ -1,0 +1,157 @@
+/* Glassmorphism card (unchanged) */
+.glassmorphism-card {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+  padding: 30px;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Form title (unchanged) */
+.form-title {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Form field wrapper */
+.form-field {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* Label styling (to match the screenshot) */
+.form-label {
+  display: block;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+/* Input field styling */
+.floating-input {
+  position: relative;
+  background: rgba(255, 255, 255, 0.9); /* Light background like the screenshot */
+  border-radius: 8px;
+  border: 1px solid transparent; /* No border by default */
+  transition: border-color 0.3s ease;
+  background-color: #ff0000;
+  height: 40px;
+}
+
+/* Input styling */
+.floating-input input {
+  width: 100%;
+  padding: 10px 40px 10px 10px; /* Extra padding on the right for the eye icon */
+  border: none;
+  background: transparent;
+  color: #333;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+/* Placeholder styling */
+.floating-input input::placeholder {
+  color: #999; /* Light gray placeholder text */
+  font-size: 14px;
+}
+
+/* Eye icon for password visibility */
+.password-toggle {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #666;
+  font-size: 16px;
+}
+
+/* Error state */
+.floating-input.has-error {
+  border: 1px solid #ff0000; /* Red border on error */
+}
+
+/* Error message */
+.error-message {
+  color: #ff0000; /* Red color for errors */
+  font-size: 12px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+/* Select label (unchanged) */
+.select-label {
+  display: block;
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Date select container (unchanged) */
+.date-select-container {
+  display: flex;
+  gap: 10px;
+}
+
+.date-select {
+  flex: 1;
+}
+
+/* Phone input specific styles (unchanged) */
+.phone-input .country-code {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #333;
+}
+
+.phone-input input {
+  padding-left: 50px; /* Space for country code */
+}
+
+/* Submit button (unchanged) */
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+  background: #45a049;
+}
+
+/* Form footer (unchanged) */
+.form-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-footer a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.form-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Full-width fields (unchanged) */
+.full-width {
+  width: 100%;
+}

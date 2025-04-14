@@ -1,0 +1,217 @@
+.customer-register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  width: 80%;
+}
+
+.customer-register-form {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  background-color: #E4EFE7;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-input .MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+
+.custom-input .MuiOutlinedInput-input {
+  color: #102E50 !important;
+  font-weight: 500 !important;
+}
+
+.custom-input .MuiOutlinedInput-notchedOutline {
+  border: 1.5px solid #102E50 !important;
+}
+
+.custom-input .Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #FE4F2D !important;
+}
+
+.custom-input .valid-password .MuiOutlinedInput-notchedOutline {
+  border-color: green !important;
+}
+
+.custom-input .MuiInputLabel-root {
+  color: #102E50 !important;
+  font-weight: 450 !important;
+}
+
+.custom-input .MuiInputLabel-root.Mui-focused {
+  color: #FE4F2D !important;
+}
+
+.custom-select .MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+
+.custom-select .MuiOutlinedInput-input {
+  color: #102E50 !important;
+  font-weight: 450 !important;
+}
+
+.custom-select .MuiOutlinedInput-notchedOutline {
+  border: 1.5px solid #102E50 !important;
+}
+
+.custom-select .Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #FE4F2D !important;
+}
+
+.custom-select .MuiInputLabel-root {
+  color: #102E50 !important;
+  font-weight: 450 !important;
+}
+
+.custom-select .MuiInputLabel-root.Mui-focused {
+  color: #FE4F2D !important;
+}
+
+.custom-date-picker .MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+
+.custom-date-picker .MuiOutlinedInput-input {
+  color: #102E50 !important;
+  font-weight: 450 !important;
+}
+
+.custom-date-picker .MuiOutlinedInput-notchedOutline {
+  border: 1.5px solid #102E50 !important;
+}
+
+.custom-date-picker .Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #FE4F2D !important;
+}
+
+.custom-date-picker .MuiInputLabel-root {
+  color: #102E50 !important;
+  font-weight: 450 !important;
+}
+
+.custom-date-picker .MuiInputLabel-root.Mui-focused {
+  color: #FE4F2D !important;
+}
+
+.MuiPickersDay-root.Mui-selected {
+  background-color: #FE4F2D !important;
+}
+
+.MuiPickersDay-root:hover {
+  background-color: rgba(254, 79, 45, 0.1) !important;
+}
+
+.MuiYearCalendar-root .Mui-selected {
+  background-color: #FE4F2D !important;
+}
+
+.MuiMonthCalendar-root .Mui-selected {
+  background-color: #FE4F2D !important;
+}
+
+.service-chip {
+  background-color: #9EC6F3 !important;
+  color: #102E50 !important;
+}
+
+.service-chip .MuiChip-deleteIcon {
+  color: #FF0B55 !important;
+}
+
+.service-chip .MuiChip-deleteIcon:hover {
+  color: #d00946 !important;
+}
+
+.register-button {
+  margin-top: 1.5rem !important;
+  background-color: #FE4F2D !important;
+  border-radius: 8px !important;
+  padding: 0.75rem !important;
+  text-transform: none !important;
+  font-weight: 450 !important;
+}
+
+.register-button:hover {
+  background-color: #e64527 !important;
+}
+
+.Toastify__toast-container--top-center {
+  top: 1rem;
+}
+
+.Toastify__toast--error {
+  background-color: #FFEBEE;
+  color: #E53935;
+}
+
+.Toastify__toast--success {
+  background-color: #E8F5E9;
+  color: #43A047;
+}
+
+.Toastify__close-button {
+  opacity: 0.7;
+  color: inherit;
+}
+
+.Toastify__close-button:hover {
+  opacity: 1;
+}
+
+.login-link {
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  margin-top: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Phone input specific styling */
+.phone-input .MuiOutlinedInput-root {
+  display: flex;
+  align-items: center;
+}
+
+.phone-input .MuiOutlinedInput-input {
+  padding-left: 10px !important; /* Adjust padding to align with dial code */
+}
+
+.phone-input .MuiOutlinedInput-notchedOutline {
+  border: 1.5px solid #102E50 !important;
+}
+
+.phone-input .Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #FE4F2D !important;
+}
+
+.phone-input .MuiInputLabel-root {
+  color: #102E50 !important;
+  font-weight: 450 !important;
+}
+
+.phone-input .MuiInputLabel-root.Mui-focused {
+  color: #FE4F2D !important;
+}
+
+/* Error styling for phone input */
+.phone-input .Mui-error .MuiOutlinedInput-notchedOutline {
+  border-color: #E53935 !important;
+}
+
+.phone-input .Mui-error .MuiInputLabel-root {
+  color: #E53935 !important;
+}
+
+@media (max-width: 450px) {
+  .customer-register-form {
+    padding: 1.5rem;
+  }
+}
